@@ -37,7 +37,7 @@ class BookRepository:
             )
         '''
 
-        cursor.execute(sql, (book.bookName, book.authorName, book.publisherName, book.isbn))
+        cursur.execute(sql, (book.bookName, book.authorName, book.publisherName, book.isbn))
         connection.commit()
         pass
     
