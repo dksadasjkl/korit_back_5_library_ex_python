@@ -42,8 +42,8 @@ for item in productItems:
 
 host = "mysql-db.cin5nw0tb1i7.ap-northeast-2.rds.amazonaws.com"
 port = 3306
-user = "aws"
-password = "1q2w3e4r!!"
+user = (해당 아이디)
+password = (해당 비밀번호)
 database = "pet_db"
 
 connection = pymysql.connect(host=host , port=port, user=user, password=password, database=database)
