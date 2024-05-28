@@ -11,6 +11,7 @@ driver = webdriver.Chrome()
 
 
 # 방문한 페이지의 URL을 추적하기 위한 집합
+
 visited_pages = set()
 
 # 첫 번째 페이지로 이동
